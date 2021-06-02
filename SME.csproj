@@ -10806,6 +10806,13 @@
     <Compile Include="VerificationAssignment\SiteVisit.aspx.designer.cs">
       <DependentUpon>SiteVisit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VerificationAssignment\SiteVisitAssignment.aspx.cs">
+      <DependentUpon>SiteVisitAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerificationAssignment\SiteVisitAssignment.aspx.designer.cs">
+      <DependentUpon>SiteVisitAssignment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VerificationAssignment\SiteVisitPrint.aspx.cs">
       <DependentUpon>SiteVisitPrint.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -13758,6 +13765,7 @@
     <Content Include="CommonForm\DocumentUpload2Handler.ashx" />
     <Content Include="packages.config" />
     <Content Include="SourceSMEReport\Redirect2.aspx" />
+    <Content Include="VerificationAssignment\SiteVisitAssignment.aspx" />
     <Content Include="WebServices\BMSektorWebService.asmx" />
     <Content Include="WebServices\IDEGeneralWS.asmx" />
     <None Include="Service References\SMEExportImport\item.disco" />

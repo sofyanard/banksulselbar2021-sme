@@ -153,6 +153,12 @@ namespace SME.VerificationAssignment
 			collateral.NavigateUrl = "AppraisalAssignment.aspx?regno="+lbl_regno.Text+"&curef="+lbl_curef.Text;
 			collateral.Target = "if2";
 
+			//--- Link Site Visit Assignment ---
+			HyperLink SiteVisitAssign = new HyperLink();
+			SiteVisitAssign.Text = "Site Visit Assignment";
+			SiteVisitAssign.Font.Bold = true;
+			SiteVisitAssign.NavigateUrl = "../VerificationAssignment/SiteVisitAssignment.aspx?regno=" + lbl_regno.Text + "&curef=" + lbl_curef.Text + "&mc=" + Request.QueryString["mc"] + "&tc=" + Request.QueryString["tc"]; ;
+			SiteVisitAssign.Target = "if2";
 
 			//--- Link Site Visit ---
 			HyperLink SiteVisit= new HyperLink();
@@ -208,6 +214,8 @@ namespace SME.VerificationAssignment
 			PlaceHolder1.Controls.Add(collateral);
 			PlaceHolder1.Controls.Add(new LiteralControl("&nbsp;&nbsp;&nbsp;"));
 			PlaceHolder1.Controls.Add(Appraisal);
+			PlaceHolder1.Controls.Add(new LiteralControl("&nbsp;&nbsp;&nbsp;"));
+			PlaceHolder1.Controls.Add(SiteVisitAssign);
 			PlaceHolder1.Controls.Add(new LiteralControl("&nbsp;&nbsp;&nbsp;"));
 			PlaceHolder1.Controls.Add(SiteVisit);
 		}
