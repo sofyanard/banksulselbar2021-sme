@@ -5477,6 +5477,13 @@
     <Compile Include="Facilities\ViewProduct.aspx.designer.cs">
       <DependentUpon>ViewProduct.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Facilities\ViewUploadedFiles.aspx.cs">
+      <DependentUpon>ViewUploadedFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Facilities\ViewUploadedFiles.aspx.designer.cs">
+      <DependentUpon>ViewUploadedFiles.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Footer.aspx.cs">
       <DependentUpon>Footer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -12538,6 +12545,7 @@
     <Content Include="Facilities\RejectApplication.aspx" />
     <Content Include="Facilities\SearchUser.aspx" />
     <Content Include="Facilities\ViewProduct.aspx" />
+    <Content Include="Facilities\ViewUploadedFiles.aspx" />
     <Content Include="Footer.aspx">
       <SubType>Form</SubType>
     </Content>

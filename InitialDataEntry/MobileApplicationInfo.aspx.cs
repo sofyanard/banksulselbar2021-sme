@@ -50,7 +50,7 @@ namespace SME.InitialDataEntry
                 "left join RFLOANPURPOSE l on p.Purpose = l.LOANPURPID " +
                 "left join RFCOLLATERALTYPE c on p.CollateralType = c.COLTYPESEQ " +
                 "left join RFCERTTYPE s on p.CertificateType = s.CERTTYPEID " +
-                "where p.LosApRegno = " + regno;
+                "where p.LosApRegno = '" + regno + "'";
             conn.ExecuteQuery();
 
             if (conn.GetRowCount() > 0)
