@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SME.CreditOperations.NotaryAssignment {
-    
-    
-    public partial class NotaryLegalSigning {
-        
+namespace SME.CreditOperations.NotaryAssignment
+{
+
+
+    public partial class NotaryLegalSigning
+    {
+
         /// <summary>
         /// Form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
-        
+
         /// <summary>
         /// BTN_BACK control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton BTN_BACK;
-        
+
         /// <summary>
         /// Menu control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder Menu;
-        
+
         /// <summary>
         /// DG_NOTARY control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataGrid DG_NOTARY;
-        
+
         /// <summary>
         /// TXT_NT_NAME control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_NAME;
-        
+
         /// <summary>
         /// BTN_SEARCH_NOTARY control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputButton BTN_SEARCH_NOTARY;
-        
+
         /// <summary>
         /// TXT_NTID control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NTID;
-        
+
         /// <summary>
         /// TXT_NT_ADDR1 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_ADDR1;
-        
+
         /// <summary>
         /// TXT_NT_ADDR2 control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_ADDR2;
-        
+
         /// <summary>
         /// TXT_NT_ADDR3 control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_ADDR3;
-        
+
         /// <summary>
         /// TXT_NT_CITY control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_CITY;
-        
+
         /// <summary>
         /// TXT_NT_EMAIL control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_EMAIL;
-        
+
         /// <summary>
         /// TXT_NT_PHNAREA control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_PHNAREA;
-        
+
         /// <summary>
         /// TXT_NT_PHNNUM control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_PHNNUM;
-        
+
         /// <summary>
         /// TXT_NT_PHNEXT control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_PHNEXT;
-        
+
         /// <summary>
         /// TXT_NT_FAXAREA control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_FAXAREA;
-        
+
         /// <summary>
         /// TXT_NT_FAXNUM control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_FAXNUM;
-        
+
         /// <summary>
         /// TXT_NT_ZIPCODE control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NT_ZIPCODE;
-        
+
         /// <summary>
         /// TXT_NA_APPNTDATETIMEDAY control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_APPNTDATETIMEDAY;
-        
+
         /// <summary>
         /// DDL_NA_APPNTDATETIMEMONTH control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_NA_APPNTDATETIMEMONTH;
-        
+
         /// <summary>
         /// TXT_NA_APPNTDATETIMEYEAR control.
         /// </summary>
@@ -200,7 +202,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_APPNTDATETIMEYEAR;
-        
+
         /// <summary>
         /// TXT_NA_APPNTDATETIMEHOUR control.
         /// </summary>
@@ -209,7 +211,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_APPNTDATETIMEHOUR;
-        
+
         /// <summary>
         /// TXT_NA_APPNTDATETIMEMINUTE control.
         /// </summary>
@@ -218,7 +220,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_APPNTDATETIMEMINUTE;
-        
+
         /// <summary>
         /// TXT_NA_REMARKS control.
         /// </summary>
@@ -227,7 +229,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_REMARKS;
-        
+
         /// <summary>
         /// LBL_SEQ control.
         /// </summary>
@@ -236,7 +238,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_SEQ;
-        
+
         /// <summary>
         /// DDL_COL control.
         /// </summary>
@@ -245,7 +247,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_COL;
-        
+
         /// <summary>
         /// TXT_NA_COVERNO control.
         /// </summary>
@@ -254,7 +256,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_COVERNO;
-        
+
         /// <summary>
         /// TXT_COVERDATE_DAY control.
         /// </summary>
@@ -263,7 +265,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_COVERDATE_DAY;
-        
+
         /// <summary>
         /// DDL_COVERDATE_MONTH control.
         /// </summary>
@@ -272,7 +274,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_COVERDATE_MONTH;
-        
+
         /// <summary>
         /// TXT_COVERDATE_YEAR control.
         /// </summary>
@@ -281,7 +283,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_COVERDATE_YEAR;
-        
+
         /// <summary>
         /// TXT_COVERDUEDATE_DAY control.
         /// </summary>
@@ -290,7 +292,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_COVERDUEDATE_DAY;
-        
+
         /// <summary>
         /// DDL_COVERDUEDATE_MONTH control.
         /// </summary>
@@ -299,7 +301,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_COVERDUEDATE_MONTH;
-        
+
         /// <summary>
         /// TXT_COVERDUEDATE_YEAR control.
         /// </summary>
@@ -308,7 +310,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_COVERDUEDATE_YEAR;
-        
+
         /// <summary>
         /// TXT_NA_ORDERNO control.
         /// </summary>
@@ -317,7 +319,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_NA_ORDERNO;
-        
+
         /// <summary>
         /// TXT_ORDERDATE_DAY control.
         /// </summary>
@@ -326,7 +328,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_ORDERDATE_DAY;
-        
+
         /// <summary>
         /// DDL_ORDERDATE_MONTH control.
         /// </summary>
@@ -335,7 +337,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_ORDERDATE_MONTH;
-        
+
         /// <summary>
         /// TXT_ORDERDATE_YEAR control.
         /// </summary>
@@ -344,7 +346,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_ORDERDATE_YEAR;
-        
+
         /// <summary>
         /// TXT_PKDATE_DAY control.
         /// </summary>
@@ -353,7 +355,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_PKDATE_DAY;
-        
+
         /// <summary>
         /// DDL_PKDATE_MONTH control.
         /// </summary>
@@ -362,7 +364,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_PKDATE_MONTH;
-        
+
         /// <summary>
         /// TXT_PKDATE_YEAR control.
         /// </summary>
@@ -371,7 +373,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_PKDATE_YEAR;
-        
+
         /// <summary>
         /// DG_PROCESS control.
         /// </summary>
@@ -380,7 +382,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataGrid DG_PROCESS;
-        
+
         /// <summary>
         /// DDL_NA_ITEM control.
         /// </summary>
@@ -389,7 +391,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_NA_ITEM;
-        
+
         /// <summary>
         /// TXT_FINISHDATE_DAY control.
         /// </summary>
@@ -398,7 +400,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_FINISHDATE_DAY;
-        
+
         /// <summary>
         /// DDL_FINISHDATE_MONTH control.
         /// </summary>
@@ -407,7 +409,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_FINISHDATE_MONTH;
-        
+
         /// <summary>
         /// TXT_FINISHDATE_YEAR control.
         /// </summary>
@@ -416,7 +418,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TXT_FINISHDATE_YEAR;
-        
+
         /// <summary>
         /// Button2 control.
         /// </summary>
@@ -425,7 +427,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputButton Button2;
-        
+
         /// <summary>
         /// LBL_SUBSEQ control.
         /// </summary>
@@ -434,7 +436,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_SUBSEQ;
-        
+
         /// <summary>
         /// BTN_SAVE2 control.
         /// </summary>
@@ -443,7 +445,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTN_SAVE2;
-        
+
         /// <summary>
         /// BTN_CLEAR2 control.
         /// </summary>
@@ -452,7 +454,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTN_CLEAR2;
-        
+
         /// <summary>
         /// BTN_SAVE control.
         /// </summary>
@@ -461,7 +463,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTN_SAVE;
-        
+
         /// <summary>
         /// BTN_CLEAR control.
         /// </summary>
@@ -470,7 +472,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTN_CLEAR;
-        
+
         /// <summary>
         /// LBL_REGNO control.
         /// </summary>
@@ -479,7 +481,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_REGNO;
-        
+
         /// <summary>
         /// LBL_CUREF control.
         /// </summary>
@@ -488,7 +490,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_CUREF;
-        
+
         /// <summary>
         /// LBL_TC control.
         /// </summary>
@@ -497,5 +499,14 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_TC;
+
+        /// <summary>
+        /// DocUpload1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::SME.CommonForm.DocumentUpload DocUpload1;
     }
 }

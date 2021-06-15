@@ -1,4 +1,5 @@
 <%@ Page language="c#" Codebehind="NotaryLegalSigning.aspx.cs" AutoEventWireup="True" Inherits="SME.CreditOperations.NotaryAssignment.NotaryLegalSigning" %>
+<%@ Register TagPrefix="uc1" TagName="DocUpload" Src="../../CommonForm/DocumentUpload.ascx" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
 	<HEAD>
@@ -319,6 +320,11 @@
 							<%}%>
 						</TD>
 					</TR>
+					<tr>
+                        <td colspan="2">
+                            <uc1:docupload id="DocUpload1" runat="server"></uc1:docupload>
+                        </td>
+                    </tr>
 				</TABLE>
 			</center>
 		</form>

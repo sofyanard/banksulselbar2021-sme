@@ -99,6 +99,9 @@ namespace SME.CreditOperations.NotaryAssignment
 				*/
 
 				ViewExportFiles();
+
+				DocUpload1.GroupTemplate = "INSUPLOAD";
+				DocUpload1.WithReadExcel = false;
 			}
 
 			ViewList();

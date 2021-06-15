@@ -33,6 +33,9 @@ namespace SME.CreditOperations.NotaryAssignment
 
 			if (!IsPostBack)
 			{
+				DocUpload1.GroupTemplate = "NTRUPLOAD";
+				DocUpload1.WithReadExcel = false;
+
 				LBL_REGNO.Text = Request.QueryString["regno"];
 				LBL_CUREF.Text = Request.QueryString["curef"];
 				LBL_TC.Text = Request.QueryString["tc"];
@@ -75,6 +78,8 @@ namespace SME.CreditOperations.NotaryAssignment
 				ViewData();
 				LBL_SEQ.Text = "";
 				LBL_SUBSEQ.Text = "";
+
+				
 			}
 			secureData();
 			ViewMenu();

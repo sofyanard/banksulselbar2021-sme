@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SME.CreditOperations.NotaryAssignment {
-    
-    
-    public partial class DetailLegalSigning {
-        
+namespace SME.CreditOperations.NotaryAssignment
+{
+
+
+    public partial class DetailLegalSigning
+    {
+
         /// <summary>
         /// Form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
-        
+
         /// <summary>
         /// BTN_BACK control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton BTN_BACK;
-        
+
         /// <summary>
         /// Menu control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder Menu;
-        
+
         /// <summary>
         /// DDL_AP_BOOKINGBRANCH control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList DDL_AP_BOOKINGBRANCH;
-        
+
         /// <summary>
         /// BTN_SAVE control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTN_SAVE;
-        
+
         /// <summary>
         /// TBL_FASILITAS control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Table TBL_FASILITAS;
-        
+
         /// <summary>
         /// LBL_REGNO control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_REGNO;
-        
+
         /// <summary>
         /// LBL_CUREF control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_CUREF;
-        
+
         /// <summary>
         /// LBL_TC control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_TC;
-        
+
         /// <summary>
         /// TR_DOC control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_DOC;
-        
+
         /// <summary>
         /// TR_DOC2 control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTableRow TR_DOC2;
-        
+
         /// <summary>
         /// BTN_EXPORT control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTN_EXPORT;
-        
+
         /// <summary>
         /// LBL_STATUS_EXPORT control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_STATUS_EXPORT;
-        
+
         /// <summary>
         /// LBL_STATUSEXPORT control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LBL_STATUSEXPORT;
-        
+
         /// <summary>
         /// DATA_EXPORT control.
         /// </summary>
@@ -146,7 +148,16 @@ namespace SME.CreditOperations.NotaryAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DataGrid DATA_EXPORT;
-        
+
+        /// <summary>
+        /// DocUpload1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::SME.CommonForm.DocumentUpload DocUpload1;
+
         /// <summary>
         /// TBL_FILEUPLOAD control.
         /// </summary>
