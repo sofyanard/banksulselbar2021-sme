@@ -465,4 +465,23 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="ChannellingInitialDataEntryUploadExcel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="filePath" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="apRegno" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="aaNo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="productId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="prodSeq" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChannellingInitialDataEntryUploadExcelResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ChannellingInitialDataEntryUploadExcelResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

@@ -202,6 +202,10 @@ namespace SME.SMEExportImport {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWord/CBICustomerInfoExportASPXExport_Word", ReplyAction="http://tempuri.org/IWord/CBICustomerInfoExportASPXExport_WordResponse")]
         [System.ServiceModel.FaultContractAttribute(typeof(SME.SMEExportImport.ServiceData), Action="http://tempuri.org/IWord/CBICustomerInfoExportASPXExport_WordServiceDataFault", Name="ServiceData", Namespace="http://schemas.datacontract.org/2004/07/SMEExportImportService")]
         string CBICustomerInfoExportASPXExport_Word(string regno, string userid, string curef, string DDL_FORMATFILESelectedValue);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWord/ChannellingInitialDataEntryUploadExcel", ReplyAction="http://tempuri.org/IWord/ChannellingInitialDataEntryUploadExcelResponse")]
+        [System.ServiceModel.FaultContractAttribute(typeof(SME.SMEExportImport.ServiceData), Action="http://tempuri.org/IWord/ChannellingInitialDataEntryUploadExcelServiceDataFault", Name="ServiceData", Namespace="http://schemas.datacontract.org/2004/07/SMEExportImportService")]
+        string ChannellingInitialDataEntryUploadExcel(string filePath, string apRegno, string aaNo, string productId, string prodSeq, string userId);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -337,6 +341,10 @@ namespace SME.SMEExportImport {
         
         public string CBICustomerInfoExportASPXExport_Word(string regno, string userid, string curef, string DDL_FORMATFILESelectedValue) {
             return base.Channel.CBICustomerInfoExportASPXExport_Word(regno, userid, curef, DDL_FORMATFILESelectedValue);
+        }
+        
+        public string ChannellingInitialDataEntryUploadExcel(string filePath, string apRegno, string aaNo, string productId, string prodSeq, string userId) {
+            return base.Channel.ChannellingInitialDataEntryUploadExcel(filePath, apRegno, aaNo, productId, prodSeq, userId);
         }
     }
 }
