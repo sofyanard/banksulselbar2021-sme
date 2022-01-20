@@ -101,7 +101,7 @@ namespace SME.DataEntry {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_Insert;
-        
+
         /// <summary>
         /// if_Child control.
         /// </summary>
@@ -109,6 +109,6 @@ namespace SME.DataEntry {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl if_Child;
+        protected global::System.Web.UI.HtmlControls.HtmlIframe if_Child;
     }
 }
